@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_com_github_prusov_Book" object="${book}" path="/books" z="B72fkJ5otxac0Arao8e6l1IM2/E=">
+        <field:display field="title" id="s_com_github_prusov_Book_title" object="${book}" z="8MUf1Vvg4fLufGe746PazFehO3M="/>
+        <field:display field="description" id="s_com_github_prusov_Book_description" object="${book}" z="WfGcY7PfclvCke7q7Y5Q2+Kafq4="/>
+        <field:display field="author" id="s_com_github_prusov_Book_author" object="${book}" z="8rl11l63Jq+HcRYg/jVfWQRO9fE="/>
+        <field:display field="isbn" id="s_com_github_prusov_Book_isbn" object="${book}" z="dFhYwHaYaIbNA+sVAZP6KC0q8RQ="/>
+        <field:display field="printYear" id="s_com_github_prusov_Book_printYear" object="${book}" z="1UCxh2j4O/05Kje46NWtIX4nRuQ="/>
+        <field:display field="readAlready" id="s_com_github_prusov_Book_readAlready" object="${book}" z="asg3kgJXlTbGASdCWq9j3viuJ08="/>
+    </page:show>
+</div>
