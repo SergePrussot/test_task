@@ -39,8 +39,4 @@ privileged aspect BookServiceImpl_Roo_Service {
         book.persist();
     }
     
-    public Book BookServiceImpl.updateBook(Book book) {
-        return book.merge();
-    }
-    
 }

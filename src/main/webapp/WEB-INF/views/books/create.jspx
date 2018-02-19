@@ -3,10 +3,10 @@
     <jsp:directive.page contentType="text/html;charset=UTF-8"/>
     <jsp:output omit-xml-declaration="yes"/>
     <form:create id="fc_com_github_prusov_Book" modelAttribute="book" path="/books" render="${empty dependencies}" z="+YWMbU5xx33k12HeL2OToRmhV34=">
-        <field:input field="title" id="c_com_github_prusov_Book_title" required="true" z="Kwusbd41VEOCavCzWW2viIGDfVQ="/>
-        <field:input field="description" id="c_com_github_prusov_Book_description" z="rtbfuVp1Q75Vgs+EZLSBIp43r6Q="/>
-        <field:input field="author" id="c_com_github_prusov_Book_author" required="true" z="HYnnZUCTzDcgHWdP1NR1WOZKrdY="/>
-        <field:input field="isbn" id="c_com_github_prusov_Book_isbn" required="true" z="J/zMv7z9OYYhcBunfS6x38EzFvI="/>
+        <field:textarea field="title" id="c_com_github_prusov_Book_title" required="true" z="n+rT0cfmAMzbRGtHhd8GUaciEUg="/>
+        <field:textarea field="description" id="c_com_github_prusov_Book_description" z="ALgmvnHxN82PGihZ/IfbVpNvbqw="/>
+        <field:textarea field="author" id="c_com_github_prusov_Book_author" required="true" z="OK25IXMMcc0JCDyPTGAmZwnosro="/>
+        <field:input field="isbn" id="c_com_github_prusov_Book_isbn" max="20" required="true" z="InTVFGMQZy9YTRMaNUUPyYlK2/U="/>
         <field:input field="printYear" id="c_com_github_prusov_Book_printYear" required="true" z="+urj4MLJ4rCvO4SKjdNeg7orZcE="/>
         <field:checkbox field="readAlready" id="c_com_github_prusov_Book_readAlready" z="3wQuHcmmiSuMpD4z1BTx460pyrI="/>
     </form:create>

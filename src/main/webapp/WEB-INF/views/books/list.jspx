@@ -2,6 +2,11 @@
 <div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
     <jsp:directive.page contentType="text/html;charset=UTF-8"/>
     <jsp:output omit-xml-declaration="yes"/>
+    <FORM action="books" method="get">
+    	    <INPUT name="q" type="text" value="${empty param.q ? '' : param.q}"/>
+    	    <INPUT type="hidden" name="page" value="1"/>
+    	    <INPUT type="hidden" name="size" value="${empty param.size ? 10 : param.size}"/>
+        </FORM>
     <page:list id="pl_com_github_prusov_Book" items="${books}" z="D016QFYxPyz2r1Epu+T8QsyHnx8=">
         <table:table data="${books}" id="l_com_github_prusov_Book" path="/books" z="4nCsv9oy2Re/+J62KJSgIajfEWk=">
             <table:column id="c_com_github_prusov_Book_id" property="id" z="hFWeaQ2w6uukvejSDhzvUAbTv1s="/>

@@ -1,0 +1,5 @@
+USE test;
+
+DROP TABLE IF EXISTS book;
+CREATE TABLE book (
+id)
