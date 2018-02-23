@@ -1,4 +1,4 @@
-USE test_task;
+USE test;
 
 DROP TABLE IF EXISTS book;
 CREATE TABLE `book` (
